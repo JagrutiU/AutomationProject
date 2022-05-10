@@ -29,5 +29,7 @@ public class AllLinks {
 			count++;
 		}
 		System.out.println(count);
+		System.out.println("Test for GITS");
 	}
+	
 }
