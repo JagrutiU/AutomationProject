@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Basic Validation">
+		<classes>
+			<class name="TestNg.TestXml" />
+			<parameter name="a" value="10" />
+			
+			<parameter name="b" value="10" />
+			
+			<parameter name="file" value="JagrutiSachin"/>
+			<methods>
+			<exclude name="atest3"/>
+			</methods>
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
